@@ -311,74 +311,6 @@ All collected responses are exported and available here:
 
 ---
 
-## 🔑 Testnet Users
-
-The following wallet addresses have been verified on Stellar Testnet:
-
-| # | Wallet Address | Explorer |
-|---|---------------|----------|
-| 1 | `GDEMO1...` | [View](https://stellar.expert/explorer/testnet/account/GDEMO1) |
-| 2 | `GDEMO2...` | [View](https://stellar.expert/explorer/testnet/account/GDEMO2) |
-| 3 | `GDEMO3...` | [View](https://stellar.expert/explorer/testnet/account/GDEMO3) |
-| 4 | `GDEMO4...` | [View](https://stellar.expert/explorer/testnet/account/GDEMO4) |
-| 5 | `GDEMO5...` | [View](https://stellar.expert/explorer/testnet/account/GDEMO5) |
-
-> **Note**: Replace with real wallet addresses from Google Form responses.
-
----
-
-## 💬 User Feedback
-
-| User | Rating | Comment |
-|------|--------|---------|
-| Alex R. | ⭐⭐⭐⭐⭐ | "The UI is incredible. Buying property with XLM was seamless!" |
-| Priya M. | ⭐⭐⭐⭐⭐ | "Finally a real estate platform on blockchain. The testnet demo is convincing." |
-| Carlos J. | ⭐⭐⭐⭐ | "Great concept. Transaction speed on Stellar is impressive." |
-| Sarah K. | ⭐⭐⭐⭐⭐ | "As an investor, this makes real estate much more accessible." |
-| James T. | ⭐⭐⭐⭐ | "Dashboard is clean, property cards are beautiful." |
-
-**Average Rating: 4.8/5** across 5 testnet users.
-
----
-
-## 🔮 Future Improvements
-
-Based on user feedback, here's our roadmap for Phase 2:
-
-### Iteration 1 — Completed ✅
-- Core marketplace with property cards
-- Freighter wallet integration
-- Stellar payment transactions
-- Soroban smart contract
-
-### Phase 2 — Planned
-
-#### 1. IPFS Property Images
-**Feedback:** Users requested actual property images  
-**Plan:** Integrate Pinata/Web3.Storage for decentralized image storage  
-**Commit:** *(Link after implementation)*
-
-#### 2. Fractional Ownership
-**Feedback:** High prices barrier for new users  
-**Plan:** Allow fractional property tokens using Stellar Assets  
-**Commit:** *(Link after implementation)*
-
-#### 3. On-Chain Verification
-**Feedback:** Property authenticity concerns  
-**Plan:** Multi-sig verification with trusted validators  
-**Commit:** *(Link after implementation)*
-
-#### 4. Mobile App
-**Feedback:** User requested native mobile experience  
-**Plan:** React Native app with same Stellar integration  
-**Commit:** *(Link after implementation)*
-
-#### 5. Rental Marketplace
-**Feedback:** Interest in property rental, not just buying  
-**Plan:** Rental listings with escrow using Stellar claimable balances  
-**Commit:** *(Link after implementation)*
-
----
 
 ## 📝 Commits
 
@@ -406,5 +338,5 @@ MIT © 2026 DESTATE — [yuvrajvibhute](https://github.com/yuvrajvibhute)
 ---
 
 <div align="center">
-Built with ❤️ using React · Soroban · Stellar · TypeScript
+Built using React · Soroban · Stellar · TypeScript
 </div>
