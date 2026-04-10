@@ -1,0 +1,135 @@
+// Mock data for demo mode (when Supabase is not configured)
+import type { Property } from './supabase';
+
+const now = new Date().toISOString();
+const yesterday = new Date(Date.now() - 86400000).toISOString();
+const twoDaysAgo = new Date(Date.now() - 172800000).toISOString();
+
+export const MOCK_PROPERTIES: Property[] = [
+  {
+    id: 'prop_001',
+    title: 'Skyline Penthouse Suite',
+    price: 15000,
+    location: 'Manhattan, New York',
+    description: 'Breathtaking panoramic views from this ultra-modern penthouse. Features floor-to-ceiling windows, private rooftop terrace, and smart home integration. The pinnacle of luxury urban living.',
+    owner: 'GDEMO1XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    image_url: '',
+    property_type: 'Penthouse',
+    bedrooms: 4,
+    bathrooms: 3,
+    area_sqft: 3200,
+    is_sold: false,
+    created_at: now,
+    updated_at: now,
+  },
+  {
+    id: 'prop_002',
+    title: 'Marina Bay Villa',
+    price: 8500,
+    location: 'Miami Beach, Florida',
+    description: 'Stunning waterfront villa with private dock, infinity pool overlooking the marina, and gourmet kitchen. Perfect blend of indoor-outdoor Florida living at its finest.',
+    owner: 'GDEMO2XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    image_url: '',
+    property_type: 'Villa',
+    bedrooms: 5,
+    bathrooms: 4,
+    area_sqft: 4800,
+    is_sold: false,
+    created_at: yesterday,
+    updated_at: yesterday,
+  },
+  {
+    id: 'prop_003',
+    title: 'Silicon Valley Tech Hub',
+    price: 3200,
+    location: 'Palo Alto, California',
+    description: 'Modern smart home perfectly positioned in the heart of Silicon Valley. Open concept design, fiber internet, EV charging, and solar panels. Ideal for remote work and innovation.',
+    owner: 'GDEMO3XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    image_url: '',
+    property_type: 'Smart Home',
+    bedrooms: 3,
+    bathrooms: 2,
+    area_sqft: 2100,
+    is_sold: false,
+    created_at: yesterday,
+    updated_at: yesterday,
+  },
+  {
+    id: 'prop_004',
+    title: 'Alpine Retreat Chalet',
+    price: 6700,
+    location: 'Aspen, Colorado',
+    description: 'Exclusive ski-in/ski-out mountain chalet with master suite, stone fireplace, heated floors, and private hot tub. The ultimate alpine escape for discerning buyers.',
+    owner: 'GDEMO4XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    image_url: '',
+    property_type: 'Chalet',
+    bedrooms: 6,
+    bathrooms: 5,
+    area_sqft: 5600,
+    is_sold: false,
+    created_at: twoDaysAgo,
+    updated_at: twoDaysAgo,
+  },
+  {
+    id: 'prop_005',
+    title: 'Downtown Loft Sanctuary',
+    price: 1250,
+    location: 'Chicago, Illinois',
+    description: 'Industrial-chic converted warehouse loft in the vibrant River North district. Exposed brick, soaring 14ft ceilings, chef\'s kitchen, and rooftop access. Urban living redefined.',
+    owner: 'GDEMO5XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    image_url: '',
+    property_type: 'Loft',
+    bedrooms: 2,
+    bathrooms: 2,
+    area_sqft: 1800,
+    is_sold: false,
+    created_at: twoDaysAgo,
+    updated_at: twoDaysAgo,
+  },
+  {
+    id: 'prop_006',
+    title: 'Pacific Cliffside Estate',
+    price: 22000,
+    location: 'Malibu, California',
+    description: 'Extraordinary oceanfront estate perched atop dramatic Pacific cliffs. Floor-to-ceiling ocean views, infinity pool, wine cellar, home theater, and 6-car garage. True luxury.',
+    owner: 'GDEMO6XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    image_url: '',
+    property_type: 'Estate',
+    bedrooms: 7,
+    bathrooms: 6,
+    area_sqft: 8900,
+    is_sold: false,
+    created_at: twoDaysAgo,
+    updated_at: twoDaysAgo,
+  },
+];
+
+// Property type gradients for visual differentiation
+export const PROPERTY_GRADIENTS: Record<string, string> = {
+  'Penthouse': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+  'Villa': 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)',
+  'Smart Home': 'linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)',
+  'Chalet': 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+  'Loft': 'linear-gradient(135deg, #ec4899 0%, #be185d 100%)',
+  'Estate': 'linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%)',
+  'Apartment': 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
+  'Condo': 'linear-gradient(135deg, #f97316 0%, #ea580c 100%)',
+  'default': 'linear-gradient(135deg, #6c63ff 0%, #a78bfa 100%)',
+};
+
+export const getPropertyGradient = (type: string): string => {
+  return PROPERTY_GRADIENTS[type] || PROPERTY_GRADIENTS['default'];
+};
+
+export const PROPERTY_TYPES = [
+  'Apartment',
+  'Villa',
+  'Penthouse',
+  'Condo',
+  'Loft',
+  'Estate',
+  'Chalet',
+  'Smart Home',
+  'Townhouse',
+  'Studio',
+];
