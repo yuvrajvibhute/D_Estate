@@ -1,13 +1,6 @@
 # 🏛️ DESTATE — Decentralized Real Estate on Stellar
 
 <div align="center">
-
-![DESTATE Banner](https://img.shields.io/badge/Built%20on-Stellar%20Testnet-7B3FE4?style=for-the-badge&logo=stellar&logoColor=white)
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Rust](https://img.shields.io/badge/Rust-Soroban-orange?style=for-the-badge&logo=rust)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
 **The world's first decentralized real estate marketplace on Stellar.**  
 Buy, sell, and own property on-chain with complete transparency — no intermediaries.
 
