@@ -292,7 +292,7 @@ netlify deploy --prod --dir=dist
 
 We collect user feedback and wallet addresses via Google Form:
 
-🔗 **[Submit Feedback Form](https://forms.gle/YOUR_FORM_ID_HERE)**
+🔗 **[Submit Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScyk1TgBVMYDGTpvtnsFLifUZc2wYiDdGYyWAmdKssqgirJtA/viewform?usp=header)**
 
 **Form Fields:**
 - Full Name
@@ -305,7 +305,7 @@ We collect user feedback and wallet addresses via Google Form:
 ### Excel Data
 
 All collected responses are exported and available here:  
-📊 **[User Feedback Data — Google Sheets](https://docs.google.com/spreadsheets/YOUR_SHEET_ID)**
+📊 **[User Feedback Data — Google Sheets](https://docs.google.com/spreadsheets/d/1vZB5-4W4ta8f1T1r_dGz3XNRAVvdM0W1fnIrf9eMR6Q/edit?usp=sharing)**
 
 > Replace this link with your actual exported Excel/Google Sheet after collecting responses.
 
